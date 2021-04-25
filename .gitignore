@@ -3,13 +3,15 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+
+Assets/
 Assets/AssetStoreTools*
 Assets/Firebase*
-Assets/ExternalDependencyManager
-Assets/Editor Default Resources
-Assets/Parse
-Assets/Plugins
-Assets/StreamingAssets
+Assets/ExternalDependencyManager*
+Assets/Editor Default Resources*
+Assets/Parse*
+Assets/Plugins*
+Assets/StreamingAssets*
 
 # Visual Studio cache directory
 .vs/
