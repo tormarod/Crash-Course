@@ -2,7 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-Crash Course/[Ll]ibrary/
+[Ll]ibrary/
 Crash Course/[Tt]emp/
 Crash Course/[Oo]bj/
 Crash Course/[Bb]uild/
