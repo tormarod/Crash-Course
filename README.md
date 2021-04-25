@@ -14,7 +14,7 @@ Crash Course es un videojuego para plataformas móviles en el que el jugador deb
 ## Desarrollo
 El desarrollo empieza con la elección del software y de la plataforma de desarrollo. En mi caso, la elección de Unity fue bastante sencilla, ya que ofrece un servicio gratuito, con una infinidad de documentación en línea y es muy accesible, además de la posibilidad de desplegar las aplicaciones en varias plataformas de forma sencilla. El desarrollo nativo es en Android, por motivos de pruebas, ya que mi dispositivo móvil usa Android. En el caso del lenguaje, una vez elegido Unity como motor, la única alternativa es C#.
 
-La base de datos a usar será Firebase, ya que intentaremos añadir la opción de hacer login con google para guardar las mejores partidas y el progreso de los jugadores.
+La base de datos a usar será Firebase, ya que intentaremos añadir la opción de hacer login con google para guardar las mejores partidas y el progreso de los jugadores. Para ello creamos un proyecto en Firebase, y agregamos nuestra APP de Unity a dicho proyecto, descargando el SKD de Firebase para Unity y agregándolo a nuestro proyecto en Unity.
 
 El siguiente paso, decidí que iba a diseñar el juego partiendo desde las mecánicas, en vez de la historia o transfondo, y luego crearía un transfondo que se adaptara a las mecáncas.
 
