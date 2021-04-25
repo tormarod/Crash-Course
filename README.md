@@ -6,12 +6,15 @@
  ## Desarrollo y tecnologías
  * Herramientas de desarrollo: Unity, Visual Studio Code, Krita
  * Lenguaje: C#
+ * Base de datos: Firebase
 
 ## Introducción
 Crash Course es un videojuego para plataformas móviles en el que el jugador debe esquivar asteroides moviendo el planeta Tierra por la pantalla, recogiendo mejoras e intentando sobrevivir el mayor tiempo posible. El marco del videojuego es un futuro en el cual hemos perdido toda capacidad de crear armas debido a una inteligencia artificial basada en Gandhi, por lo que nuestra única defensa contra los asteroides es poder mover el planeta fuera de órbita con propulsores.
 
 ## Desarrollo
 El desarrollo empieza con la elección del software y de la plataforma de desarrollo. En mi caso, la elección de Unity fue bastante sencilla, ya que ofrece un servicio gratuito, con una infinidad de documentación en línea y es muy accesible, además de la posibilidad de desplegar las aplicaciones en varias plataformas de forma sencilla. El desarrollo nativo es en Android, por motivos de pruebas, ya que mi dispositivo móvil usa Android. En el caso del lenguaje, una vez elegido Unity como motor, la única alternativa es C#.
+
+La base de datos a usar será Firebase, ya que intentaremos añadir la opción de hacer login con google para guardar las mejores partidas y el progreso de los jugadores.
 
 El siguiente paso, decidí que iba a diseñar el juego partiendo desde las mecánicas, en vez de la historia o transfondo, y luego crearía un transfondo que se adaptara a las mecáncas.
 
