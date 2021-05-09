@@ -10,12 +10,21 @@ public class Spawner : MonoBehaviour
     public float maxX;
     public float minY;
     public float maxY;
+    float random;
+
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
     {
-        float time = Time.deltaTime;
-        if(time > 0) {
+        float interval = Time.deltaTime;
+        random = Random.Range(0f, 1f);
+        Debug.Log(interval);
+        Debug.Log(random);
+        if (interval > random) {
             Instantiate(asteroidPrefab, GetRandomPosition(), Quaternion.identity);
         }
     }
