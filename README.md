@@ -4,7 +4,7 @@
  *Los scripts se encuentran en Assets>Scripts*
  
  ## Desarrollo y tecnologías
- * Herramientas de desarrollo: Unity, Visual Studio Code, Krita
+ * Herramientas de desarrollo: Unity 2020.3.7f1, Visual Studio Code, Krita
  * Lenguaje: C#
  * Base de datos: Firebase
 
