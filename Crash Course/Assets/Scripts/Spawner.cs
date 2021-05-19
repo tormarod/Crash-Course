@@ -11,6 +11,7 @@ public class Spawner : MonoBehaviour
     public float minY;
     public float maxY;
     float random;
+    public GameObject planet;
 
     void Start()
     {
@@ -25,7 +26,8 @@ public class Spawner : MonoBehaviour
         Debug.Log(interval);
         Debug.Log(random);
         if (interval > random) {
-            Instantiate(asteroidPrefab, GetRandomPosition(), Quaternion.identity);
+            GameObject newAsteroid = Instantiate(asteroidPrefab, GetRandomPosition(), Quaternion.identity);
+            newAsteroid.GetComponent<Gravity>().planet = planet;
         }
     }
 
