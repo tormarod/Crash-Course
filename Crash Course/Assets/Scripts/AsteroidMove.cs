@@ -9,6 +9,8 @@ public class AsteroidMove : MonoBehaviour
 
     public float speed;
 
+    public GameObject restartPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,4 +33,5 @@ public class AsteroidMove : MonoBehaviour
         Vector2 position = planetTransform.position;
         return position;
     }
+
 }

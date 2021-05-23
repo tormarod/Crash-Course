@@ -23,8 +23,7 @@ public class Spawner : MonoBehaviour
     {
         float interval = Time.deltaTime;
         random = Random.Range(0f, 1f);
-        Debug.Log(interval);
-        Debug.Log(random);
+
         if (interval > random) {
             GameObject newAsteroid = Instantiate(asteroidPrefab, GetRandomPosition(), Quaternion.identity);
             newAsteroid.GetComponent<Gravity>().planet = planet;
