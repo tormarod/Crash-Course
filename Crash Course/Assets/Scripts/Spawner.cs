@@ -33,16 +33,10 @@ public class Spawner : MonoBehaviour
     Vector2 GetRandomPosition() {
         float randomX = Random.Range(minX, maxX);
         float randomY = Random.Range(minY, maxY);
-        if (randomX > 0) {
-            randomX = randomX;
-        } else {
-            randomX = randomX;
-        }
-        if (randomY > 0) {
-            randomY = randomY;
-        } else {
-            randomY = randomY;
-        }
+        if (randomX >= 0) randomX = randomX + maxX;
+        else randomX = randomX - minX;
+        if (randomY >= 0) randomY = randomY + maxY;
+        else randomY = randomY - minY;
         return new Vector2(randomX, randomY);
     }
 

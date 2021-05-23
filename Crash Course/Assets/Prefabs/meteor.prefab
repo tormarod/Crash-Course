@@ -134,6 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbe3b6e4feacdd43b8241e995927106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxGravDist: 150
-  maxGravity: 5
+  maxGravDist: 20
+  maxGravity: 2
   planet: {fileID: 0}
