@@ -12,11 +12,7 @@ public class Spawner : MonoBehaviour
     public float maxY;
     float random;
     public GameObject planet;
-
-    void Start()
-    {
-        
-    }
+    GameObject newAsteroid;
 
     // Update is called once per frame
     void Update()
@@ -25,7 +21,7 @@ public class Spawner : MonoBehaviour
         random = Random.Range(0f, 1f);
 
         if (interval > random) {
-            GameObject newAsteroid = Instantiate(asteroidPrefab, GetRandomPosition(), Quaternion.identity);
+            newAsteroid = Instantiate(asteroidPrefab, GetRandomPosition(), Quaternion.identity);
             newAsteroid.GetComponent<Gravity>().planet = planet;
         }
     }

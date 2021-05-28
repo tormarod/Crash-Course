@@ -9,10 +9,13 @@ public class PlanetMovement : MonoBehaviour
     Collider2D col;
     public float moveSpeed;
     public GameObject restartPanel;
+    private AudioSource source;
+    public GameObject explosionEffect;
 
     // Start is called before the first frame update
     void Start()
     {
+        source = GetComponent<AudioSource>();
         col = GetComponent<Collider2D>();
     }
 
@@ -27,11 +30,25 @@ public class PlanetMovement : MonoBehaviour
 
         }
     }
+    public void GameOver()
+    {
+        Invoke("Delay", 1.5f);
+    }
+
+    public void Delay()
+    {
+        restartPanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Asteroid")
         {
-            restartPanel.SetActive(true);
+            Destroy(collision.gameObject);
+            Instantiate(explosionEffect, collision.transform.position, Quaternion.identity);
+            source.Play();
+            GameOver();
             Debug.Log("Hit");
         }
     }
