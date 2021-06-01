@@ -4,6 +4,7 @@ using UnityEngine;
 using Firebase.Auth;
 using UnityEngine.UI;
 using EasyUI.Toast;
+using UnityEngine.SceneManagement;
 
 public class FirebaseAuth : MonoBehaviour
 {
@@ -31,9 +32,14 @@ public class FirebaseAuth : MonoBehaviour
         {
             Toast.Show("Enter a password", 3f, ToastColor.Black);
         }
-        else if (passwordSignUp != passwordRepeatSignUp)
+        else if (!passwordSignUp.text.Equals(passwordRepeatSignUp.text))
         {
             Toast.Show("Passwords must coincide", 3f, ToastColor.Black);
+            Debug.Log(emailSignUp.text);
+            Debug.Log(passwordSignUp);
+            Debug.Log(passwordRepeatSignUp);
+            Debug.Log(passwordSignUp.ToString());
+            Debug.Log(passwordRepeatSignUp.ToString());
             passwordSignUp.text = "";
             passwordRepeatSignUp.text = "";
             passwordSignUp.Select();
@@ -86,8 +92,12 @@ public class FirebaseAuth : MonoBehaviour
                 Toast.Show("Error signing in", 3f, ToastColor.Black);
                 return;
             }
-            FirebaseUser returnUser = task.Result;
-            Debug.LogFormat("Firebase User was signed in successfully :{0} ({1})", returnUser.DisplayName, returnUser.UserId);
+            if (task.IsCompleted)
+            {
+                FirebaseUser returnUser = task.Result;
+                Debug.LogFormat("Firebase User was signed in successfully :{0} ({1})", returnUser.DisplayName, returnUser.UserId);
+                return;
+            }
         });
     }
 }

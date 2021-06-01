@@ -6,6 +6,7 @@ using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 using System.Threading.Tasks;
 using UnityEngine.SceneManagement;
+using EasyUI.Toast;
 
 
 public class PlayGamesServices : MonoBehaviour
@@ -33,28 +34,26 @@ public class PlayGamesServices : MonoBehaviour
              {
                  case SignInStatus.Success:
                      Debug.Log("Logged in Successfully");
+                     SceneManager.LoadScene("Game");
                      break;
                  default:
+                     Toast.Show("Google Play login failed", 3f, ToastColor.Black);
                      Debug.Log("Logged in failed");
                      break;
 
              }
          });
-        Social.localUser.Authenticate((bool success) => {
+        Social.localUser.Authenticate((bool success) =>
+        {
             // handle success or failure
             if (success)
             {
                 Debug.Log("Unity social success");
-            } else
+            }
+            else
             {
                 Debug.Log("Unity social failed");
             }
         });
-        SceneManager.LoadScene("Game");
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

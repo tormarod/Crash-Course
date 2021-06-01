@@ -2,10 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameMaster : MonoBehaviour
 {
+    public GameObject restartPanel;
+    float timer = 0;
+    public TMP_Text displayTimer;
 
+    public void Update()
+    {
+        timer += Time.deltaTime;
+        displayTimer.text = ((int)timer).ToString();
+    }
     public void GoToGameScene()
     {
         SceneManager.LoadScene("Game");
@@ -22,6 +31,11 @@ public class GameMaster : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
+    }
+    public void Pause()
+    {
+        restartPanel.SetActive(true);
+        Time.timeScale = 0;
     }
 
 }

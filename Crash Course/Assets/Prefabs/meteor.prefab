@@ -135,5 +135,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxGravDist: 20
-  maxGravity: 2
+  maxGravity: 3
   planet: {fileID: 0}
