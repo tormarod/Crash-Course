@@ -24,24 +24,49 @@ public class PlanetMovement : MonoBehaviour
     float speedTimer = 0;
     bool faster = false;
 
+    public Transform player;
+    private bool touchStart = false;
+    private Vector2 pointA;
+    private Vector2 pointB;
+
+    public Transform circle;
+    public Transform outerCircle;
+
     // Start is called before the first frame update
     void Start()
     {
         source = GetComponent<AudioSource>();
         col = GetComponent<Collider2D>();
-        AdManager.instance.RequestInterstitial();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0)
+        if (Input.GetMouseButtonDown(0))
         {
-            Touch touch = Input.GetTouch(0);
-            Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-            transform.position = Vector2.MoveTowards(transform.position, touchPosition, moveSpeed * Time.deltaTime);
+            pointA = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z));
 
+            circle.transform.position = pointA;
+            outerCircle.transform.position = pointA;
+            circle.GetComponent<SpriteRenderer>().enabled = true;
+            outerCircle.GetComponent<SpriteRenderer>().enabled = true;
         }
+        if (Input.GetMouseButton(0))
+        {
+            touchStart = true;
+            pointB = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z));
+        }
+        else
+        {
+            touchStart = false;
+        }
+        //if (Input.touchCount > 0)
+        //{
+        //    Touch touch = Input.GetTouch(0);
+        //    Vector2 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+        //    transform.position = Vector2.MoveTowards(transform.position, touchPosition, moveSpeed * Time.deltaTime);
+
+        //}
         sizeTimer += Time.deltaTime;
         if (small && sizeTimer > 10f)
         {
@@ -61,21 +86,38 @@ public class PlanetMovement : MonoBehaviour
             moveSpeed -= 4;
         }
     }
+    private void FixedUpdate()
+    {
+        if (touchStart)
+        {
+            Vector2 offset = pointB - pointA;
+            Vector2 direction = Vector2.ClampMagnitude(offset, 1.0f);
+            moveCharacter(direction);
+
+            circle.transform.position = new Vector2(pointA.x + direction.x, pointA.y + direction.y);
+        }
+        else
+        {
+            circle.GetComponent<SpriteRenderer>().enabled = false;
+            outerCircle.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+    }
+    void moveCharacter(Vector2 direction)
+    {
+        player.Translate(direction * moveSpeed * Time.deltaTime);
+    }
     public void GameOver()
     {
         Social.ReportScore((int)score, "CgkI3s7JseQVEAIQAg", (bool success) => {
             // handle success or failure
         });
-        Invoke("Delay", 1.5f);
+        Invoke("Delay", 1f);
     }
 
     public void Delay()
     {
         restartPanel.SetActive(true);
-        if (Random.Range(0, 4) == 0)
-        {
-            AdManager.instance.ShowInterstitial();
-        }
         Time.timeScale = 0;
     }
 

@@ -7,6 +7,7 @@ public class AdManager : MonoBehaviour
     private InterstitialAd interstitial;
 
     public static AdManager instance;
+
     private void Awake()
     {
         if (instance == null)
@@ -22,6 +23,7 @@ public class AdManager : MonoBehaviour
     void Start()
     {
         MobileAds.Initialize(InitializationStatus => { });
+        this.interstitial.OnAdClosed += HandleOnAdClosed;
     }
     private AdRequest CreateAdRequest()
     {
@@ -53,4 +55,12 @@ public class AdManager : MonoBehaviour
             Debug.Log("Inerstitial Ad is not ready yet");
         }
     }
+    public void HandleOnAdClosed(object sender, EventArgs args)
+    {
+        MonoBehaviour.print("HandleAdClosed event received");
+        Debug.Log("On ad closed");
+        interstitial.Destroy();
+    }
+
+
 }

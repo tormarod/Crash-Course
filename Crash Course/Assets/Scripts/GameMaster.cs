@@ -9,11 +9,18 @@ public class GameMaster : MonoBehaviour
     public GameObject restartPanel;
     float timer = 0;
     public TMP_Text displayTimer;
-
+    private void Start()
+    {
+        //AdManager.instance.RequestInterstitial();
+        //ShowAd();
+    }
     public void Update()
     {
         timer += Time.deltaTime;
-        displayTimer.text = ((int)timer).ToString();
+        if (displayTimer != null)
+        {
+            displayTimer.text = ((int)timer).ToString();
+        }
     }
     public void GoToGameScene()
     {
@@ -37,5 +44,13 @@ public class GameMaster : MonoBehaviour
         restartPanel.SetActive(true);
         Time.timeScale = 0;
     }
+
+    //public void ShowAd()
+    //{
+    //    if (Random.Range(0, 3) == 0)
+    //    {
+    //        AdManager.instance.ShowInterstitial();
+    //    }
+    //}
 
 }
