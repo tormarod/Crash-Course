@@ -13,132 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-06-03T16:44:44.884+02:00
-  initializedAtString: 2021-06-03T16:36:20.462+02:00
+  lastUpdatedAtString: 2021-06-03T20:33:26.340+02:00
+  initializedAtString: 2021-06-03T20:31:08.953+02:00
   entries:
-  - path: Crash Course\Assets\GoogleMobileAds\Editor\Resources\DummyAds\Banners\SMART_BANNER.prefab
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\GoogleMobileAds\Editor\Resources\DummyAds\Banners\SMART_BANNER.prefab
-    projectPath: Assets\GoogleMobileAds\Editor\Resources\DummyAds\Banners\SMART_BANNER.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\androidx.work.work-runtime-2.1.0.aar
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\androidx.work.work-runtime-2.1.0.aar
-    projectPath: Assets\Plugins\Android\androidx.work.work-runtime-2.1.0.aar
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\com.google.android.gms.play-services-ads-lite-20.0.0.aar
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.android.gms.play-services-ads-lite-20.0.0.aar
-    projectPath: Assets\Plugins\Android\com.google.android.gms.play-services-ads-lite-20.0.0.aar
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-7.1.0.aar
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-7.1.0.aar
-    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-7.1.0.aar
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-app-unity-7.1.0.aar
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-app-unity-7.1.0.aar
-    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-app-unity-7.1.0.aar
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-auth-unity-7.1.0.aar
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-auth-unity-7.1.0.aar
-    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-auth-unity-7.1.0.aar
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-common-19.5.0.aar
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-common-19.5.0.aar
-    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-common-19.5.0.aar
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-database-unity-7.1.0.aar
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-database-unity-7.1.0.aar
-    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-database-unity-7.1.0.aar
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml
-    projectPath: Assets\Plugins\Android\GoogleMobileAdsPlugin.androidlib\AndroidManifest.xml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Scenes\Game.unity
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Scenes\Game.unity
-    projectPath: Assets\Scenes\Game.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Scripts\AdManager.cs
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Scripts\AdManager.cs
-    projectPath: Assets\Scripts\AdManager.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Scripts\GameMaster.cs
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Scripts\GameMaster.cs
-    projectPath: Assets\Scripts\GameMaster.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Scripts\GoogleAdMobController.cs
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Scripts\GoogleAdMobController.cs
-    projectPath: Assets\Scripts\GoogleAdMobController.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Crash Course\Assets\Scripts\GoogleAdMobController.cs.meta
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Scripts\GoogleAdMobController.cs.meta
-    projectPath: Assets\Scripts\GoogleAdMobController.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Crash Course\Assets\Scripts\PlanetMovement.cs
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Scripts\PlanetMovement.cs
-    projectPath: Assets\Scripts\PlanetMovement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Assets\Sprites\threshold.png
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Sprites\threshold.png
-    projectPath: Assets\Sprites\threshold.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Crash Course\Assets\Sprites\threshold.png.meta
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Sprites\threshold.png.meta
-    projectPath: Assets\Sprites\threshold.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Crash Course\Assets\Sprites\touch.png
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Sprites\touch.png
-    projectPath: Assets\Sprites\touch.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Crash Course\Assets\Sprites\touch.png.meta
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Sprites\touch.png.meta
-    projectPath: Assets\Sprites\touch.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Crash Course\Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
-      SDF.asset
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\TextMesh
-      Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold SDF.asset
-    projectPath: Assets\TextMesh Pro\Examples & Extras\Resources\Fonts & Materials\Roboto-Bold
-      SDF.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Crash Course\Library\ArtifactDB
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -151,18 +28,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Crash Course\Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Library\expandedItems
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Crash Course\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -172,12 +37,6 @@ MonoBehaviour:
   - path: Crash Course\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -199,57 +58,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Crash Course\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Crash Course\Library\SourceAssetDB
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Logs\ApiUpdaterCheck.txt
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Logs\ApiUpdaterCheck.txt
-    projectPath: Logs\ApiUpdaterCheck.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\ProjectSettings\ProjectSettings.asset
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Crash Course\UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
