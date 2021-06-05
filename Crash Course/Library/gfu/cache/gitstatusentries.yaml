@@ -13,9 +13,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-06-03T20:33:26.340+02:00
-  initializedAtString: 2021-06-03T20:31:08.953+02:00
+  lastUpdatedAtString: 2021-06-05T17:31:37.865+02:00
+  initializedAtString: 2021-06-05T17:31:30.831+02:00
   entries:
+  - path: Crash Course\Assets\Plugins\Android\androidx.work.work-runtime-2.1.0.aar
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\androidx.work.work-runtime-2.1.0.aar
+    projectPath: Assets\Plugins\Android\androidx.work.work-runtime-2.1.0.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Crash Course\Assets\Plugins\Android\com.google.android.gms.play-services-ads-lite-20.0.0.aar
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.android.gms.play-services-ads-lite-20.0.0.aar
+    projectPath: Assets\Plugins\Android\com.google.android.gms.play-services-ads-lite-20.0.0.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-7.1.0.aar
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-7.1.0.aar
+    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-analytics-unity-7.1.0.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-app-unity-7.1.0.aar
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-app-unity-7.1.0.aar
+    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-app-unity-7.1.0.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-auth-unity-7.1.0.aar
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-auth-unity-7.1.0.aar
+    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-auth-unity-7.1.0.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-common-19.5.0.aar
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-common-19.5.0.aar
+    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-common-19.5.0.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-database-unity-7.1.0.aar
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Assets\Plugins\Android\com.google.firebase.firebase-database-unity-7.1.0.aar
+    projectPath: Assets\Plugins\Android\com.google.firebase.firebase-database-unity-7.1.0.aar
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Crash Course\Library\ArtifactDB
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -28,6 +70,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Crash Course\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Crash Course\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -37,6 +85,12 @@ MonoBehaviour:
   - path: Crash Course\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Crash Course\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,9 +112,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Crash Course\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Crash Course\Library\SourceAssetDB
     fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Crash Course\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\Crash Course\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: user.keystore
+    fullPath: C:\Users\tormarod\Documents\GitHub\Crash-Course\user.keystore
+    projectPath: ..\user.keystore
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
